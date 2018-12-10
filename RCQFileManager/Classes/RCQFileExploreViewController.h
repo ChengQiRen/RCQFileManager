@@ -10,7 +10,7 @@
 #import "RCQBaseViewController.h"
 #import "RCQLookFilesModel.h"
 
-@interface RCQFileExlporeViewController : RCQBaseViewController
+@interface RCQFileExploreViewController : RCQBaseViewController
 {
     UIDocumentInteractionController *_documentController; //文档交互控制器
 }

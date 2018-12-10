@@ -100,9 +100,9 @@
 /** 导航条左边的按钮 */
 - (UIImage *)RCQNavigationBarLeftButtonImage:(UIButton *)leftButton navigationBar:(RCQNavigationBar *)navigationBar {
     if (self.navigationController && self.navigationController.viewControllers.count > 1) {
-        return kRCSandboxImage(@"back_gray");
+        return [self imagesNamedFromCustomBundle:@"back_gray@2x"];
     }
-    return kRCSandboxImage(@"back_close");
+    return [self imagesNamedFromCustomBundle:@"back_close@2x"];
 }
 /** 导航条右边的按钮 */
 //- (UIImage *)RCQNavigationBarRightButtonImage:(UIButton *)rightButton navigationBar:(RCQNavigationBar *)navigationBar
@@ -110,6 +110,21 @@
 //
 //}
 
+- (UIImage *)imagesNamedFromCustomBundle:(NSString *)imgName {
+    NSString *imageName = [@"rc_" stringByAppendingString:imgName];
+    NSString *mainBundlePath = [NSBundle mainBundle].bundlePath;
+    NSString *bundlePath = [NSString stringWithFormat:@"%@/%@",mainBundlePath,@"RCQFileManager.bundle"];
+    NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
+    if (bundle == nil) {
+        bundlePath = [NSString stringWithFormat:@"%@/%@",mainBundlePath,@"Frameworks/RCQFileManager.framework/RCQFileManager.bundle"];
+        bundle = [NSBundle bundleWithPath:bundlePath];
+    }
+    if ([UIImage respondsToSelector:@selector(imageNamed:inBundle:compatibleWithTraitCollection:)]) {
+        return [UIImage imageNamed:imageName inBundle:bundle compatibleWithTraitCollection:nil];
+    } else {
+        return [UIImage imageWithContentsOfFile:[bundle pathForResource:imageName ofType:@"png"]];
+    }
+}
 
 
 #pragma mark - Delegate

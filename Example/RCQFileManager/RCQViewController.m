@@ -7,7 +7,7 @@
 //
 
 #import "RCQViewController.h"
-#import "RCQFileExlporeViewController.h"
+#import "RCQFileExploreViewController.h"
 
 @interface RCQViewController ()
 
@@ -22,7 +22,7 @@
 }
 
 - (IBAction)openExplore:(UIButton *)sender {
-    RCQFileExlporeViewController *vc = [[RCQFileExlporeViewController alloc] init];
+    RCQFileExploreViewController *vc = [[RCQFileExploreViewController alloc] init];
     [self presentViewController:[[UINavigationController alloc] initWithRootViewController:vc] animated:YES completion:^{
 
     }];

@@ -30,7 +30,9 @@
 #define is_iPhoneX (kWidth == 375.f && kHeight == 812.f ? YES : NO)
 
 // 图片路径
-#define kRCSandboxImage(file)                 [UIImage imageNamed:file]
+#define kRCSandboxFilesSrcName(file)               [@"RCQFileManager.bundle" stringByAppendingPathComponent:file]
+
+#define kRCSandboxImage(file)                 [UIImage imageNamed:kRCSandboxFilesSrcName(file)]
 
 #ifndef YYSYNTH_DYNAMIC_PROPERTY_OBJECT
 #define YYSYNTH_DYNAMIC_PROPERTY_OBJECT(_getter_, _setter_, _association_, _type_) \

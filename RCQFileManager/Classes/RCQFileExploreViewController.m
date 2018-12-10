@@ -162,24 +162,6 @@
     cell.backgroundColor = [UIColor clearColor];
 }
 
-
-- (UIImage *)imagesNamedFromCustomBundle:(NSString *)imgName {
-    NSString *imageName = [@"rc_" stringByAppendingString:imgName];
-    
-    NSString *mainBundlePath = [NSBundle mainBundle].bundlePath;
-    NSString *bundlePath = [NSString stringWithFormat:@"%@/%@",mainBundlePath,@"RCQFileManager.bundle"];
-    NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
-    if (bundle == nil) {
-        bundlePath = [NSString stringWithFormat:@"%@/%@",mainBundlePath,@"Frameworks/RCQFileManager.framework/RCQFileManager.bundle"];
-        bundle = [NSBundle bundleWithPath:bundlePath];
-    }
-    if ([UIImage respondsToSelector:@selector(imageNamed:inBundle:compatibleWithTraitCollection:)]) {
-        return [UIImage imageNamed:imageName inBundle:bundle compatibleWithTraitCollection:nil];
-    } else {
-        return [UIImage imageWithContentsOfFile:[bundle pathForResource:imageName ofType:@"png"]];
-    }
-}
-
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
     return YES;
 }

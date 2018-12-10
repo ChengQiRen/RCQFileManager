@@ -24,4 +24,6 @@
 
 @property (strong, nonatomic) RCQNavigationBar *navgationBar;
 
+- (UIImage *)imagesNamedFromCustomBundle:(NSString *)imgName;
+
 @end
