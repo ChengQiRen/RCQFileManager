@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'RCQFileManager_Example' do
+  pod 'RCQFileManager', :path => '../'
+
+  target 'RCQFileManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
