@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RCQFileManager'
-  s.version          = '1.1.1'
+  s.version          = '1.1.2'
   s.summary          = 'iOS沙盒文件浏览器'
 
 # This description is used to generate tags and improve search results.
