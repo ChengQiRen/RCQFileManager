@@ -8,6 +8,8 @@
 
 #import "RCQFileExlporeViewController.h"
 #import "RCQLookTxtViewController.h"
+#import "RCQGenerlDefine.h"
+#import "RCQLookFilesTableViewCell.h"
 
 @interface RCQFileExlporeViewController () <UITableViewDelegate, UITableViewDataSource, UIDocumentInteractionControllerDelegate>
 
@@ -131,7 +133,7 @@
         cell.fileImageView.image = [UIImage imageWithContentsOfFile:fileObj.filePath];
     }
     else if (fileObj.isDir) {
-        cell.fileImageView.image = [self imagesNamedFromCustomBundle:@"folder.png"];
+        cell.fileImageView.image = [self imagesNamedFromCustomBundle:@"folder"];
         cell.sizeLabel.hidden = YES;
         if (fileObj.nodes.count == 0) {
             cell.userInteractionEnabled = NO;
@@ -140,10 +142,10 @@
     }
     else {
         cell.sizeLabel.hidden = NO;
-        NSString *imagePath = [strIntercept stringByAppendingPathExtension:@"png"];
+        NSString *imagePath = strIntercept;
         UIImage *img = [self imagesNamedFromCustomBundle:imagePath];
         if (!img) {
-            img = [self imagesNamedFromCustomBundle:@"unknown.png"];
+            img = [self imagesNamedFromCustomBundle:@"unknown"];
         }
         cell.fileImageView.image = img;
     }
@@ -152,7 +154,7 @@
 
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
     cell.separatorInset = UIEdgeInsetsMake(0, 15, 0, 0);
-    UIView *viewTemp1 = [[UIView alloc]init];
+    UIView *viewTemp1 = [[UIView alloc] init];
     viewTemp1.backgroundColor = [UIColor whiteColor];
     viewTemp1.frame=CGRectMake(0, 0, self.view.frame.size.width, 59);
     cell.backgroundView = [[UIView alloc] init];
@@ -163,7 +165,19 @@
 
 - (UIImage *)imagesNamedFromCustomBundle:(NSString *)imgName {
     NSString *imageName = [@"rc_" stringByAppendingString:imgName];
-    return kRCSandboxImage(imageName);
+    
+    NSString *mainBundlePath = [NSBundle mainBundle].bundlePath;
+    NSString *bundlePath = [NSString stringWithFormat:@"%@/%@",mainBundlePath,@"RCQFileManager.bundle"];
+    NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
+    if (bundle == nil) {
+        bundlePath = [NSString stringWithFormat:@"%@/%@",mainBundlePath,@"Frameworks/RCQFileManager.framework/RCQFileManager.bundle"];
+        bundle = [NSBundle bundleWithPath:bundlePath];
+    }
+    if ([UIImage respondsToSelector:@selector(imageNamed:inBundle:compatibleWithTraitCollection:)]) {
+        return [UIImage imageNamed:imageName inBundle:bundle compatibleWithTraitCollection:nil];
+    } else {
+        return [UIImage imageWithContentsOfFile:[bundle pathForResource:imageName ofType:@"png"]];
+    }
 }
 
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {

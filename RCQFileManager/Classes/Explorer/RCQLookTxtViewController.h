@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "RCQGenerlDefine.h"
+#import "RCQBaseViewController.h"
+
 @interface RCQLookTxtViewController : RCQBaseViewController
 
 @property (nonatomic, copy) NSString *filePath;

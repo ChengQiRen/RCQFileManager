@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RCQFileManager'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'iOS沙盒文件浏览器'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/ChengQiRen/RCQFileManager'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'rencheng11@icloud.com' => 'rencheng@hoolai.com' }
+  s.author           = { 'rencheng11@icloud.com' => 'rencheng@himoca.com' }
   s.source           = { :git => 'https://github.com/ChengQiRen/RCQFileManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

@@ -7,6 +7,7 @@
 //
 
 #import "RCQLookTxtViewController.h"
+#import "RCQGenerlDefine.h"
 
 @interface RCQLookTxtViewController ()
 @property (nonatomic, strong) UIScrollView *scrollView;

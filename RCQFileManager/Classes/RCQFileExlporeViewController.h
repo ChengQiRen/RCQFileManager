@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RCQBaseViewController.h"
 #import "RCQLookFilesModel.h"
-#import "RCQLookFilesTableViewCell.h"
-#import "RCQGenerlDefine.h"
 
 @interface RCQFileExlporeViewController : RCQBaseViewController
 {
