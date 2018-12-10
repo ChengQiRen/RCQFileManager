@@ -1,0 +1,6 @@
+framework module RCQFileManager {
+  umbrella header "RCQFileManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

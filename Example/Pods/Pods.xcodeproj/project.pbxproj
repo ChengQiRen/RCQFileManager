@@ -1,0 +1,1227 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00196B9572A923674F51C75D6243E8AF /* rc_dat.png in Resources */ = {isa = PBXBuildFile; fileRef = 188ECD9501E8F578528CE27C30E22E33 /* rc_dat.png */; };
+		06B46B23BDEAB58F6A3B3FAD03F49A08 /* rc_m4v.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E639D88B06B0256459D567BA62BBAD /* rc_m4v.png */; };
+		06DB6C8734DB35061461C0BF8F38C91E /* rc_amr.png in Resources */ = {isa = PBXBuildFile; fileRef = E7DCF336223FBE5F1F7B767D73AFC12F /* rc_amr.png */; };
+		0842784582D786203F2DC55D6E2BF36A /* rc_pptx.png in Resources */ = {isa = PBXBuildFile; fileRef = D265A1B8379A995C8230938F99F8E3B9 /* rc_pptx.png */; };
+		09BB4EE2CADC2FD7EE6EF63B5BA58DEE /* RCQBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AF424408002868AAF19F655C921B60 /* RCQBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B4AECF6BCC7A3CF321510BBBA987D74 /* rc_wmv.png in Resources */ = {isa = PBXBuildFile; fileRef = A3516026FE69DBAF2C8FAA1FB1A5B810 /* rc_wmv.png */; };
+		0C3C782BF9EEE7095AE72275D82BFE6F /* rc_mp4.png in Resources */ = {isa = PBXBuildFile; fileRef = C6C9FE949D903D31E1B5F40F6ECC9A4B /* rc_mp4.png */; };
+		11DD991CD5D64335DEB9C64744D36865 /* rc_png.png in Resources */ = {isa = PBXBuildFile; fileRef = 701AB6C19E3C75D280DCCD1DF5CC9863 /* rc_png.png */; };
+		13F0D9DD85A1D5E84FDCBB4025F5E66A /* rc_divx.png in Resources */ = {isa = PBXBuildFile; fileRef = 31DDB1F963357EA9345480CF1656AD78 /* rc_divx.png */; };
+		15828405F16EA590C8AB65A55A447B2E /* rc_vob.png in Resources */ = {isa = PBXBuildFile; fileRef = E8C2C4D600C5F5DA5CAE4B0BF8C2F7B1 /* rc_vob.png */; };
+		1B8B78BA7A0DF93C29CDECE663C5D880 /* rc_pdf.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D12793F10638943F4A11FFC9AC5B007 /* rc_pdf.png */; };
+		20076C77A16C5A023FFABBC33F5C4737 /* rc_aif.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BF100E809F63408A341D266B13CF382 /* rc_aif.png */; };
+		22F922E372398F6CFE2D7D6EFCBB3A3B /* RCQNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA8F85BFD77E7A6020BC3D9F973DF32 /* RCQNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24A7A39F6AA22F26029D89B73B8CF3B3 /* rc_ts.png in Resources */ = {isa = PBXBuildFile; fileRef = DAC885E05B267FCDA0A0C24180E826EC /* rc_ts.png */; };
+		3379BC2910D59B973AA2EEF1B5D3DAAD /* rc_flv.png in Resources */ = {isa = PBXBuildFile; fileRef = ABFD2738B0788392FF26DFCA6339E0BB /* rc_flv.png */; };
+		362363FA6F43BA35E0FAF94FAA4A2900 /* rc_flac.png in Resources */ = {isa = PBXBuildFile; fileRef = 4081D56D9911D82A93F2B203C9B17471 /* rc_flac.png */; };
+		3C1F798F919C8FB6780F36796E734D1A /* rc_m4r.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A58BC7414FA9C219EAE3390EB327436 /* rc_m4r.png */; };
+		3E81EC041119CF6D22FC39D947499A17 /* rc_rmvb.png in Resources */ = {isa = PBXBuildFile; fileRef = 44B957BF24D1900911A855B304CB49F8 /* rc_rmvb.png */; };
+		40FF398052EC6D8378A51CE68DE9A5C6 /* rc_mpv.png in Resources */ = {isa = PBXBuildFile; fileRef = DE7BDF514516B34F1E65DD6BFAD5439E /* rc_mpv.png */; };
+		46D390E8356698794F3085182321DC9F /* RCQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C87CC2DB15C281EDA9AFE69BE0A90827 /* RCQBaseViewController.m */; };
+		4BB103D30B4F369561D1734591A55016 /* rc_cur.png in Resources */ = {isa = PBXBuildFile; fileRef = 16772C7167D755DCE66DD9D3CB4915B5 /* rc_cur.png */; };
+		5212507A348A2EFBB95BA6396AD19E58 /* RCQLookFilesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5BFDD09D404DE36957E3F7AE50DA14 /* RCQLookFilesTableViewCell.m */; };
+		53CEB5E6D4797AB3AE346DCBE14292BF /* rc_numbers.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A83AFF4C4BF009AC53DC49B51C96587 /* rc_numbers.png */; };
+		553F80BFC402FC2C0E7B563F67CEFE49 /* Pods-RCQFileManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD58F267C9AB97ABC6250A6DB2EBF573 /* Pods-RCQFileManager_Example-dummy.m */; };
+		5E677E9084CB6853FA296AA138A75E9A /* rc_vcg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1455CD83D11438ADA52A8ACCFFCC925E /* rc_vcg.png */; };
+		604ACA2BD59BA936EABE0CDB8E07E651 /* rc_rm.png in Resources */ = {isa = PBXBuildFile; fileRef = 19FE91C4C0670EF589F3AA99793D9C6E /* rc_rm.png */; };
+		61E600ECDC11F6E5D911761D9A61F073 /* rc_xls.png in Resources */ = {isa = PBXBuildFile; fileRef = 610CD71279E09BBE46CB2A2CDB545530 /* rc_xls.png */; };
+		61F7F705EE8F8F5273EAFE95C048B5DC /* rc_mov.png in Resources */ = {isa = PBXBuildFile; fileRef = 877907BD710C307B8AC7E4485E05873D /* rc_mov.png */; };
+		66696984A6DACF6547EBC512448E1A88 /* rc_jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = A12F55E563A56D8EEA39FA0EDF00774C /* rc_jpg.png */; };
+		669656439B0682DAFB25824C396A236F /* RCQLookFilesModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 71D629B82CBDD5BAE9E1EE38F06B4516 /* RCQLookFilesModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B505184A95014B4039C9350FB4C5B06 /* rc_m4a.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C07AACD85D58FCE603A98EE80DE9701 /* rc_m4a.png */; };
+		6CEAF70F91041E679135F72C71372BE2 /* RCQLookFilesTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A1ECE59C7C8B3A2557DBB41A597F7321 /* RCQLookFilesTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		776ACFDE0EE9CE91D9173B159055C7B2 /* rc_swf.png in Resources */ = {isa = PBXBuildFile; fileRef = 847EA774BE5F3A6A7B149DC10DA7C849 /* rc_swf.png */; };
+		781080140A89DA7FE0C4E44988C9C72B /* RCQGenerlDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = F352095CE33BA7E0130E833AE07E1B3C /* RCQGenerlDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78EB8C06D0D46F7D2F0836D50769C635 /* rc_mkv.png in Resources */ = {isa = PBXBuildFile; fileRef = 10AFDB8DA4315FA8C63242BB90F35FCE /* rc_mkv.png */; };
+		7C7DBAAB7ADA0611A2A3C3E6F95A1854 /* Pods-RCQFileManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98639893A859D3933969DADB97ABFE21 /* Pods-RCQFileManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CAB8ACAEFA4118BDCC02E1361D96BB8 /* RCQFileExlporeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 63FCF1B957253A87D4B5F81DE433AF40 /* RCQFileExlporeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80138B700963E27E3ED8B0EEB3946816 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		828AF2C581D1C343A60701A006DA3C99 /* rc_3gp.png in Resources */ = {isa = PBXBuildFile; fileRef = C347F538E681467BCADD2444158936F9 /* rc_3gp.png */; };
+		89B6868668F9EC102AB3E04363BF423B /* RCQLookTxtViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E3D1793A56EEFDC00655016B6F8D0 /* RCQLookTxtViewController.m */; };
+		8A23B7F4639B6B08A207E945FB56B47D /* rc_music.png in Resources */ = {isa = PBXBuildFile; fileRef = FCF4D750F6D9C545D98272536EAE71EF /* rc_music.png */; };
+		8ADCA02E4EE70293A90BB33A0DA92BC8 /* rc_unknown.png in Resources */ = {isa = PBXBuildFile; fileRef = 35749DA57D0BD674D0D832D4C16A2E8F /* rc_unknown.png */; };
+		8AE80D49921107DE06A43DBD1CE8A9E3 /* rc_html.png in Resources */ = {isa = PBXBuildFile; fileRef = 782778D1BA9DD029C9526C4F2ADD96B9 /* rc_html.png */; };
+		8B16BD1A8633631336D2BEC80203ADAD /* RCQLookTxtViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CE931B5EDD762D8192790308E060F10A /* RCQLookTxtViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B827029346A05FD4389EE5373859D4F /* rc_folder.png in Resources */ = {isa = PBXBuildFile; fileRef = 130E57A3B16852FF1BA33F912AE95AAB /* rc_folder.png */; };
+		8E166E6D900B8357DBB75E66DA295700 /* rc_m2ts.png in Resources */ = {isa = PBXBuildFile; fileRef = 811194768DE0B76A2B1E9F5C936C1102 /* rc_m2ts.png */; };
+		91F3ACE453F350AA9BC2CA264F674C86 /* rc_mp3.png in Resources */ = {isa = PBXBuildFile; fileRef = 81AB3ED5521CC7016C44BB400DAD4047 /* rc_mp3.png */; };
+		91FD67B9B8D2214241E43F5D38E56B54 /* RCQFileManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8741E09D517B483ECDD0497B4B55A3 /* RCQFileManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93E851F2F36DB242264F9EF89550EEC1 /* rc_wma.png in Resources */ = {isa = PBXBuildFile; fileRef = 972CE1CCDAC77BD6058107A7C947BECA /* rc_wma.png */; };
+		9533C4BBA34A22C7C399236CA3321CA4 /* rc_ape.png in Resources */ = {isa = PBXBuildFile; fileRef = FDD285AB1E2D167315339E5B1F1DCBD5 /* rc_ape.png */; };
+		963FEE9D39B15CB034D2843C82990336 /* rc_jpeg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C1058DB29917D634645F006960F884A /* rc_jpeg.png */; };
+		97141E94AB59DCD0014961457034C464 /* rc_bmp.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A02D3C78CF8B099B04C46D68FCEA683 /* rc_bmp.png */; };
+		9B3762ECA8148D885422100EE9C197B9 /* rc_rtf.png in Resources */ = {isa = PBXBuildFile; fileRef = 22EF0A2EA33876A92A10445577D436B8 /* rc_rtf.png */; };
+		A00C56C752605A31676748BFFFF9E3C7 /* rc_aac.png in Resources */ = {isa = PBXBuildFile; fileRef = 506628CD0FB25918B2F308E932FED559 /* rc_aac.png */; };
+		A07C4F4FD21F0900B28C7921DB378B45 /* rc_acc.png in Resources */ = {isa = PBXBuildFile; fileRef = C8EA434C7CA1A7F1ED0D9024B7882F29 /* rc_acc.png */; };
+		A156331F5F7A8D6F126ED2847FE09E82 /* rc_mpeg.png in Resources */ = {isa = PBXBuildFile; fileRef = B932375E0BA24E6BBDDB4F5EC8B23E52 /* rc_mpeg.png */; };
+		A3049677A0D3D3E6756B1D4DA7844A15 /* rc_ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 515439A62E206156880A5E040BE53314 /* rc_ico.png */; };
+		A659CF7FE9268D47E65E99633932F6EF /* Pods-RCQFileManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F84D98B686853301A523502542BBD1D1 /* Pods-RCQFileManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A73B51EC78070CE5CFDC469F4D836D89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		A90AC44C946A7CE97277BFF27A21FC58 /* Pods-RCQFileManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C4E186C2C6D04C2F3B240245B4A962 /* Pods-RCQFileManager_Tests-dummy.m */; };
+		AF5922C60609415D2BC2147220B34258 /* rc_fw.png in Resources */ = {isa = PBXBuildFile; fileRef = F800D0F761F262FFE009D165463F0E34 /* rc_fw.png */; };
+		B08FC629490C6824275939E6F1B85CCE /* rc_ogg.png in Resources */ = {isa = PBXBuildFile; fileRef = A04B4EB999892E0637634BCF5F34A379 /* rc_ogg.png */; };
+		B31ABFEFF1E3A8518FB28972C4351D47 /* RCQFileManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 514A47701E3A87CF3457B301EC9DC5DF /* RCQFileManager-dummy.m */; };
+		B364B7D3AD83C3ADA81AE564360B235E /* rc_ppt.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C9D50734310486A2FBB7BF366E0BE5B /* rc_ppt.png */; };
+		B42A4ECE5F804D8F9640B9A6BC5B738C /* back_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 340A6019B67AEAA054193F8807355A51 /* back_close@2x.png */; };
+		B69B504AA6A48093E6ECD297BE1A7B83 /* rc_docx.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD8EA80D8BCF139C9527C9108DD4583 /* rc_docx.png */; };
+		B7272B3767AB602484CED924174102E5 /* rc_doc.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C7E65E6A7EE3AB466DEEBC1A8450CDD /* rc_doc.png */; };
+		B83C09394B58C3B54EC81F13B51A65A7 /* rc_mpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0057F8816A43BA9ED42BB17785A4AB02 /* rc_mpg.png */; };
+		BB52F4482A346C142B8FDBB6C3C61342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		BD19CDD3D5C31698FDB898C4A8AEB29B /* rc_mmf.png in Resources */ = {isa = PBXBuildFile; fileRef = 31D5FC0283958F08E878E45D2C5F97B4 /* rc_mmf.png */; };
+		BDED9781971E8901EFE6B14A891C7E6B /* RCQFileExlporeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F23E9A52A74CFD5993A8592560DCFB /* RCQFileExlporeViewController.m */; };
+		C1E0E8E80A7736655776EC74C502B9D6 /* rc_wav.png in Resources */ = {isa = PBXBuildFile; fileRef = 6431DDF7AE569C0B0EFB64E5813A3D86 /* rc_wav.png */; };
+		C4EE316111942E505729B17B645DCE28 /* rc_tiff.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C95A4EB2FB8B29675852739CAD50E84 /* rc_tiff.png */; };
+		C7F4760CFEC68F60DB8224E6A4C4A055 /* RCQNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D54682886CA9F8B337A6113B5281838 /* RCQNavigationBar.m */; };
+		C984B10932C230621135DD9C2E4B235E /* rc_rmvp.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B306033C8FFE4355AC15D4A647BD566 /* rc_rmvp.png */; };
+		CFA82C284C40D6C47DE3DF882969C7C2 /* RCQFileManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9E30BCC4DF9DA2F73C3E712A1757D6E2 /* RCQFileManager.bundle */; };
+		D4A0DC79DA794EE966F3A8C40798DA8B /* rc_keynotes.png in Resources */ = {isa = PBXBuildFile; fileRef = A8EBF6B3F01D18CA530062972555C704 /* rc_keynotes.png */; };
+		D9AC39AC4F104B18E7A8939117335126 /* rc_caf.png in Resources */ = {isa = PBXBuildFile; fileRef = 97BBD8BD3FFE4343EE569C432086364E /* rc_caf.png */; };
+		DADB98BB689DB88034AF787B27C99E96 /* rc_mp2.png in Resources */ = {isa = PBXBuildFile; fileRef = A7F25F779BAD5ED2A4B6BCBBF8CEF2D2 /* rc_mp2.png */; };
+		E2B48CC32416AA9E50963C9D4202DCC6 /* rc_xmb.png in Resources */ = {isa = PBXBuildFile; fileRef = 191F5B9553C4707B9E2D4B94D8BC39FA /* rc_xmb.png */; };
+		E4A642E636F8F609D86D274CAE29CABE /* RCQLookFilesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED77B2D2A0D4F290896C8BBB410BB172 /* RCQLookFilesModel.m */; };
+		E59793F251072B65E0995C41EFCBE9C2 /* rc_pages.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A5627A1DB061604F3EC8DAAE6CF54C /* rc_pages.png */; };
+		EBF0D655FEAC7A3BDE40D56A08F23327 /* back_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AAC487095BD442A39B61A22A905E119 /* back_gray@2x.png */; };
+		F6C420A8CBE9246D91EC760E188B9C4F /* rc_txt.png in Resources */ = {isa = PBXBuildFile; fileRef = 5643EA1E1FFA4E3C42E4744DB889F2CE /* rc_txt.png */; };
+		F8790539BF85FBCE58F619DEC195B5FA /* rc_asf.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F9F7ECCCAAB2762A945223DF266FBE /* rc_asf.png */; };
+		FB657FDA7C91B1E7662A773897C5A216 /* rc_avi.png in Resources */ = {isa = PBXBuildFile; fileRef = B112CE236433B0C01F820E1CD2D67AFA /* rc_avi.png */; };
+		FD463BDD5F016F78D2DF9A391FEE498B /* rc_tp.png in Resources */ = {isa = PBXBuildFile; fileRef = FDFCFD023A50E06B80672E9A9675E7E3 /* rc_tp.png */; };
+		FDB1462A3E8A9A8C4538C313E5A34A8F /* rc_gif.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDF943F2C95AA97DC3D64C75D128DB6 /* rc_gif.png */; };
+		FE08A43C2BDAE516690B56DDB4FEC6C3 /* rc_vcf.png in Resources */ = {isa = PBXBuildFile; fileRef = C225F67FF2837DBFFFECD3D9B3DFB665 /* rc_vcf.png */; };
+		FE9C8EDF224B1C5A7ABBF90E3731BA84 /* rc_xlsx.png in Resources */ = {isa = PBXBuildFile; fileRef = 2805977E88B8BA980B73E08AF002D60F /* rc_xlsx.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		398381B9A8433CC80C96D663746783FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B494ED52F07FB7B1840BBCCA14EF4A5;
+			remoteInfo = RCQFileManager;
+		};
+		8B73CB8FFFF17E3D6060A15FE7CD0925 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 443716FA2CB9F3C35016B066C0A7E5FC;
+			remoteInfo = "RCQFileManager-RCQFileManager";
+		};
+		8DCC0BD8A3C531E1C2DCEEF0695DABEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 301379E59B38CA2B73CB08E690AAC442;
+			remoteInfo = "Pods-RCQFileManager_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0057F8816A43BA9ED42BB17785A4AB02 /* rc_mpg.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_mpg.png; path = RCQFileManager/Assets/rc_mpg.png; sourceTree = "<group>"; };
+		04AF424408002868AAF19F655C921B60 /* RCQBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCQBaseViewController.h; sourceTree = "<group>"; };
+		0F5539FB37FA4A69BEBC6A60EAC87964 /* Pods-RCQFileManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RCQFileManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		10AFDB8DA4315FA8C63242BB90F35FCE /* rc_mkv.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_mkv.png; path = RCQFileManager/Assets/rc_mkv.png; sourceTree = "<group>"; };
+		130E57A3B16852FF1BA33F912AE95AAB /* rc_folder.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_folder.png; path = RCQFileManager/Assets/rc_folder.png; sourceTree = "<group>"; };
+		1455CD83D11438ADA52A8ACCFFCC925E /* rc_vcg.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_vcg.png; path = RCQFileManager/Assets/rc_vcg.png; sourceTree = "<group>"; };
+		16772C7167D755DCE66DD9D3CB4915B5 /* rc_cur.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_cur.png; path = RCQFileManager/Assets/rc_cur.png; sourceTree = "<group>"; };
+		188ECD9501E8F578528CE27C30E22E33 /* rc_dat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_dat.png; path = RCQFileManager/Assets/rc_dat.png; sourceTree = "<group>"; };
+		191F5B9553C4707B9E2D4B94D8BC39FA /* rc_xmb.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_xmb.png; path = RCQFileManager/Assets/rc_xmb.png; sourceTree = "<group>"; };
+		19FE91C4C0670EF589F3AA99793D9C6E /* rc_rm.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_rm.png; path = RCQFileManager/Assets/rc_rm.png; sourceTree = "<group>"; };
+		1BD8EA80D8BCF139C9527C9108DD4583 /* rc_docx.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_docx.png; path = RCQFileManager/Assets/rc_docx.png; sourceTree = "<group>"; };
+		1C9D50734310486A2FBB7BF366E0BE5B /* rc_ppt.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_ppt.png; path = RCQFileManager/Assets/rc_ppt.png; sourceTree = "<group>"; };
+		1DDF943F2C95AA97DC3D64C75D128DB6 /* rc_gif.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_gif.png; path = RCQFileManager/Assets/rc_gif.png; sourceTree = "<group>"; };
+		1E0E3D1793A56EEFDC00655016B6F8D0 /* RCQLookTxtViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCQLookTxtViewController.m; sourceTree = "<group>"; };
+		22EF0A2EA33876A92A10445577D436B8 /* rc_rtf.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_rtf.png; path = RCQFileManager/Assets/rc_rtf.png; sourceTree = "<group>"; };
+		239757CE0878DBC78E5DBA4AB71FEFB0 /* Pods-RCQFileManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RCQFileManager_Example-Info.plist"; sourceTree = "<group>"; };
+		2805977E88B8BA980B73E08AF002D60F /* rc_xlsx.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_xlsx.png; path = RCQFileManager/Assets/rc_xlsx.png; sourceTree = "<group>"; };
+		2C7E65E6A7EE3AB466DEEBC1A8450CDD /* rc_doc.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_doc.png; path = RCQFileManager/Assets/rc_doc.png; sourceTree = "<group>"; };
+		2DACDF18C13AD0A2BEFEE9B8461C40FD /* Pods-RCQFileManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCQFileManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		31D5FC0283958F08E878E45D2C5F97B4 /* rc_mmf.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_mmf.png; path = RCQFileManager/Assets/rc_mmf.png; sourceTree = "<group>"; };
+		31DDB1F963357EA9345480CF1656AD78 /* rc_divx.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_divx.png; path = RCQFileManager/Assets/rc_divx.png; sourceTree = "<group>"; };
+		340A6019B67AEAA054193F8807355A51 /* back_close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "back_close@2x.png"; path = "RCQFileManager/Assets/back_close@2x.png"; sourceTree = "<group>"; };
+		35749DA57D0BD674D0D832D4C16A2E8F /* rc_unknown.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_unknown.png; path = RCQFileManager/Assets/rc_unknown.png; sourceTree = "<group>"; };
+		3A02D3C78CF8B099B04C46D68FCEA683 /* rc_bmp.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_bmp.png; path = RCQFileManager/Assets/rc_bmp.png; sourceTree = "<group>"; };
+		3C07AACD85D58FCE603A98EE80DE9701 /* rc_m4a.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_m4a.png; path = RCQFileManager/Assets/rc_m4a.png; sourceTree = "<group>"; };
+		4081D56D9911D82A93F2B203C9B17471 /* rc_flac.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_flac.png; path = RCQFileManager/Assets/rc_flac.png; sourceTree = "<group>"; };
+		44B957BF24D1900911A855B304CB49F8 /* rc_rmvb.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_rmvb.png; path = RCQFileManager/Assets/rc_rmvb.png; sourceTree = "<group>"; };
+		49DDF161B3211CFB63C36CC445C6866E /* Pods-RCQFileManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RCQFileManager_Example.modulemap"; sourceTree = "<group>"; };
+		4B5BFDD09D404DE36957E3F7AE50DA14 /* RCQLookFilesTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCQLookFilesTableViewCell.m; sourceTree = "<group>"; };
+		4B8E4378B1FDAF2D80299ACBD7470374 /* Pods-RCQFileManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCQFileManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4BF100E809F63408A341D266B13CF382 /* rc_aif.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_aif.png; path = RCQFileManager/Assets/rc_aif.png; sourceTree = "<group>"; };
+		506628CD0FB25918B2F308E932FED559 /* rc_aac.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_aac.png; path = RCQFileManager/Assets/rc_aac.png; sourceTree = "<group>"; };
+		50E1A10EE3398D75293604E24EA465DF /* Pods-RCQFileManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCQFileManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		514A47701E3A87CF3457B301EC9DC5DF /* RCQFileManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RCQFileManager-dummy.m"; sourceTree = "<group>"; };
+		515439A62E206156880A5E040BE53314 /* rc_ico.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_ico.png; path = RCQFileManager/Assets/rc_ico.png; sourceTree = "<group>"; };
+		54E77ED4C52A97245982EDD2068E261C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5643EA1E1FFA4E3C42E4744DB889F2CE /* rc_txt.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_txt.png; path = RCQFileManager/Assets/rc_txt.png; sourceTree = "<group>"; };
+		5DAEB56C3695907E9B4313D321B6A547 /* Pods_RCQFileManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RCQFileManager_Tests.framework; path = "Pods-RCQFileManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		610CD71279E09BBE46CB2A2CDB545530 /* rc_xls.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_xls.png; path = RCQFileManager/Assets/rc_xls.png; sourceTree = "<group>"; };
+		61C4E186C2C6D04C2F3B240245B4A962 /* Pods-RCQFileManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RCQFileManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		61F23E9A52A74CFD5993A8592560DCFB /* RCQFileExlporeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCQFileExlporeViewController.m; path = RCQFileManager/Classes/RCQFileExlporeViewController.m; sourceTree = "<group>"; };
+		63FCF1B957253A87D4B5F81DE433AF40 /* RCQFileExlporeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCQFileExlporeViewController.h; path = RCQFileManager/Classes/RCQFileExlporeViewController.h; sourceTree = "<group>"; };
+		6431DDF7AE569C0B0EFB64E5813A3D86 /* rc_wav.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_wav.png; path = RCQFileManager/Assets/rc_wav.png; sourceTree = "<group>"; };
+		6AAC487095BD442A39B61A22A905E119 /* back_gray@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "back_gray@2x.png"; path = "RCQFileManager/Assets/back_gray@2x.png"; sourceTree = "<group>"; };
+		6D12793F10638943F4A11FFC9AC5B007 /* rc_pdf.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_pdf.png; path = RCQFileManager/Assets/rc_pdf.png; sourceTree = "<group>"; };
+		6DD6D01C6BC62A26A9E6597C8A815926 /* Pods-RCQFileManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RCQFileManager_Tests-Info.plist"; sourceTree = "<group>"; };
+		701AB6C19E3C75D280DCCD1DF5CC9863 /* rc_png.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_png.png; path = RCQFileManager/Assets/rc_png.png; sourceTree = "<group>"; };
+		71D629B82CBDD5BAE9E1EE38F06B4516 /* RCQLookFilesModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCQLookFilesModel.h; sourceTree = "<group>"; };
+		75D657DEC783EEDA349D354E922F663E /* Pods_RCQFileManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RCQFileManager_Example.framework; path = "Pods-RCQFileManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		782778D1BA9DD029C9526C4F2ADD96B9 /* rc_html.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_html.png; path = RCQFileManager/Assets/rc_html.png; sourceTree = "<group>"; };
+		7B306033C8FFE4355AC15D4A647BD566 /* rc_rmvp.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_rmvp.png; path = RCQFileManager/Assets/rc_rmvp.png; sourceTree = "<group>"; };
+		811194768DE0B76A2B1E9F5C936C1102 /* rc_m2ts.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_m2ts.png; path = RCQFileManager/Assets/rc_m2ts.png; sourceTree = "<group>"; };
+		81AB3ED5521CC7016C44BB400DAD4047 /* rc_mp3.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_mp3.png; path = RCQFileManager/Assets/rc_mp3.png; sourceTree = "<group>"; };
+		847EA774BE5F3A6A7B149DC10DA7C849 /* rc_swf.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_swf.png; path = RCQFileManager/Assets/rc_swf.png; sourceTree = "<group>"; };
+		877907BD710C307B8AC7E4485E05873D /* rc_mov.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_mov.png; path = RCQFileManager/Assets/rc_mov.png; sourceTree = "<group>"; };
+		8A3199F9C65EEAA8FD4E89C03F0C16F8 /* Pods-RCQFileManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RCQFileManager_Tests.modulemap"; sourceTree = "<group>"; };
+		8A83AFF4C4BF009AC53DC49B51C96587 /* rc_numbers.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_numbers.png; path = RCQFileManager/Assets/rc_numbers.png; sourceTree = "<group>"; };
+		8C95A4EB2FB8B29675852739CAD50E84 /* rc_tiff.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_tiff.png; path = RCQFileManager/Assets/rc_tiff.png; sourceTree = "<group>"; };
+		8D54682886CA9F8B337A6113B5281838 /* RCQNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCQNavigationBar.m; sourceTree = "<group>"; };
+		90783FE75A9EB2EAE67F27F0DC45EC5A /* Pods-RCQFileManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RCQFileManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		972CE1CCDAC77BD6058107A7C947BECA /* rc_wma.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_wma.png; path = RCQFileManager/Assets/rc_wma.png; sourceTree = "<group>"; };
+		97BBD8BD3FFE4343EE569C432086364E /* rc_caf.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_caf.png; path = RCQFileManager/Assets/rc_caf.png; sourceTree = "<group>"; };
+		98639893A859D3933969DADB97ABFE21 /* Pods-RCQFileManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RCQFileManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9A58BC7414FA9C219EAE3390EB327436 /* rc_m4r.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_m4r.png; path = RCQFileManager/Assets/rc_m4r.png; sourceTree = "<group>"; };
+		9C1058DB29917D634645F006960F884A /* rc_jpeg.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_jpeg.png; path = RCQFileManager/Assets/rc_jpeg.png; sourceTree = "<group>"; };
+		9E30BCC4DF9DA2F73C3E712A1757D6E2 /* RCQFileManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = RCQFileManager.bundle; path = "RCQFileManager-RCQFileManager.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A04B4EB999892E0637634BCF5F34A379 /* rc_ogg.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_ogg.png; path = RCQFileManager/Assets/rc_ogg.png; sourceTree = "<group>"; };
+		A0DD89E4E37279A555525E8602B06958 /* RCQFileManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RCQFileManager.modulemap; sourceTree = "<group>"; };
+		A12F55E563A56D8EEA39FA0EDF00774C /* rc_jpg.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_jpg.png; path = RCQFileManager/Assets/rc_jpg.png; sourceTree = "<group>"; };
+		A1ECE59C7C8B3A2557DBB41A597F7321 /* RCQLookFilesTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCQLookFilesTableViewCell.h; sourceTree = "<group>"; };
+		A2A19FF614186D3B7CDEFC5E81D314B6 /* Pods-RCQFileManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCQFileManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A3516026FE69DBAF2C8FAA1FB1A5B810 /* rc_wmv.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_wmv.png; path = RCQFileManager/Assets/rc_wmv.png; sourceTree = "<group>"; };
+		A7F25F779BAD5ED2A4B6BCBBF8CEF2D2 /* rc_mp2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_mp2.png; path = RCQFileManager/Assets/rc_mp2.png; sourceTree = "<group>"; };
+		A8EBF6B3F01D18CA530062972555C704 /* rc_keynotes.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_keynotes.png; path = RCQFileManager/Assets/rc_keynotes.png; sourceTree = "<group>"; };
+		ABFD2738B0788392FF26DFCA6339E0BB /* rc_flv.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_flv.png; path = RCQFileManager/Assets/rc_flv.png; sourceTree = "<group>"; };
+		B112CE236433B0C01F820E1CD2D67AFA /* rc_avi.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_avi.png; path = RCQFileManager/Assets/rc_avi.png; sourceTree = "<group>"; };
+		B1DDCDD276B8B94AA3E375E5E82D36A2 /* RCQFileManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RCQFileManager-Info.plist"; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B4F9F7ECCCAAB2762A945223DF266FBE /* rc_asf.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_asf.png; path = RCQFileManager/Assets/rc_asf.png; sourceTree = "<group>"; };
+		B932375E0BA24E6BBDDB4F5EC8B23E52 /* rc_mpeg.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_mpeg.png; path = RCQFileManager/Assets/rc_mpeg.png; sourceTree = "<group>"; };
+		BAC2AE2E8725BD3F87BB392FCE8A590D /* Pods-RCQFileManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RCQFileManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BC3B8FA440438DC83ACD25EF3FE62CCB /* RCQFileManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RCQFileManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD58F267C9AB97ABC6250A6DB2EBF573 /* Pods-RCQFileManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RCQFileManager_Example-dummy.m"; sourceTree = "<group>"; };
+		C0F3A25FA5A6E47C57431F8904A1CD7C /* RCQFileManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCQFileManager-prefix.pch"; sourceTree = "<group>"; };
+		C225F67FF2837DBFFFECD3D9B3DFB665 /* rc_vcf.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_vcf.png; path = RCQFileManager/Assets/rc_vcf.png; sourceTree = "<group>"; };
+		C2DAA3E8A048663EBF8216B2243979F6 /* ResourceBundle-RCQFileManager-RCQFileManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RCQFileManager-RCQFileManager-Info.plist"; sourceTree = "<group>"; };
+		C347F538E681467BCADD2444158936F9 /* rc_3gp.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_3gp.png; path = RCQFileManager/Assets/rc_3gp.png; sourceTree = "<group>"; };
+		C35510F2562E3BE555B2164FF2C02CA4 /* RCQFileManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RCQFileManager.framework; path = RCQFileManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6C9FE949D903D31E1B5F40F6ECC9A4B /* rc_mp4.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_mp4.png; path = RCQFileManager/Assets/rc_mp4.png; sourceTree = "<group>"; };
+		C87CC2DB15C281EDA9AFE69BE0A90827 /* RCQBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCQBaseViewController.m; sourceTree = "<group>"; };
+		C8EA434C7CA1A7F1ED0D9024B7882F29 /* rc_acc.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_acc.png; path = RCQFileManager/Assets/rc_acc.png; sourceTree = "<group>"; };
+		CE931B5EDD762D8192790308E060F10A /* RCQLookTxtViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCQLookTxtViewController.h; sourceTree = "<group>"; };
+		CFA8F85BFD77E7A6020BC3D9F973DF32 /* RCQNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCQNavigationBar.h; sourceTree = "<group>"; };
+		D01B49334FE65ED05CD94CC0E5C44625 /* RCQFileManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RCQFileManager.xcconfig; sourceTree = "<group>"; };
+		D265A1B8379A995C8230938F99F8E3B9 /* rc_pptx.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_pptx.png; path = RCQFileManager/Assets/rc_pptx.png; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D7A5627A1DB061604F3EC8DAAE6CF54C /* rc_pages.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_pages.png; path = RCQFileManager/Assets/rc_pages.png; sourceTree = "<group>"; };
+		DA8741E09D517B483ECDD0497B4B55A3 /* RCQFileManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCQFileManager-umbrella.h"; sourceTree = "<group>"; };
+		DAC885E05B267FCDA0A0C24180E826EC /* rc_ts.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_ts.png; path = RCQFileManager/Assets/rc_ts.png; sourceTree = "<group>"; };
+		DDF40BB1515EB2761A02B3C57F887015 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DE7BDF514516B34F1E65DD6BFAD5439E /* rc_mpv.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_mpv.png; path = RCQFileManager/Assets/rc_mpv.png; sourceTree = "<group>"; };
+		E6E639D88B06B0256459D567BA62BBAD /* rc_m4v.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_m4v.png; path = RCQFileManager/Assets/rc_m4v.png; sourceTree = "<group>"; };
+		E7DCF336223FBE5F1F7B767D73AFC12F /* rc_amr.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_amr.png; path = RCQFileManager/Assets/rc_amr.png; sourceTree = "<group>"; };
+		E8C2C4D600C5F5DA5CAE4B0BF8C2F7B1 /* rc_vob.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_vob.png; path = RCQFileManager/Assets/rc_vob.png; sourceTree = "<group>"; };
+		ED77B2D2A0D4F290896C8BBB410BB172 /* RCQLookFilesModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCQLookFilesModel.m; sourceTree = "<group>"; };
+		EDD95ADE279EE5DBD20D2156097B2B14 /* Pods-RCQFileManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RCQFileManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F352095CE33BA7E0130E833AE07E1B3C /* RCQGenerlDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCQGenerlDefine.h; sourceTree = "<group>"; };
+		F75EB31F55246736811EC8E510EAF620 /* Pods-RCQFileManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RCQFileManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F800D0F761F262FFE009D165463F0E34 /* rc_fw.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_fw.png; path = RCQFileManager/Assets/rc_fw.png; sourceTree = "<group>"; };
+		F84D98B686853301A523502542BBD1D1 /* Pods-RCQFileManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RCQFileManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		FCF4D750F6D9C545D98272536EAE71EF /* rc_music.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_music.png; path = RCQFileManager/Assets/rc_music.png; sourceTree = "<group>"; };
+		FDD285AB1E2D167315339E5B1F1DCBD5 /* rc_ape.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_ape.png; path = RCQFileManager/Assets/rc_ape.png; sourceTree = "<group>"; };
+		FDFCFD023A50E06B80672E9A9675E7E3 /* rc_tp.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rc_tp.png; path = RCQFileManager/Assets/rc_tp.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		519DD1551EFFD587C722F2FE9D4F49D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D1CB8D48E596F020AFD655CD7CF4E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB52F4482A346C142B8FDBB6C3C61342 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B8AAEF65E826DDF2A32DEB04828E016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73B51EC78070CE5CFDC469F4D836D89 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D22CA918A3504849CE18D3DFC938604 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80138B700963E27E3ED8B0EEB3946816 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		117DD1E7537E9ECBC252933F1C310209 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				54E77ED4C52A97245982EDD2068E261C /* LICENSE */,
+				BC3B8FA440438DC83ACD25EF3FE62CCB /* RCQFileManager.podspec */,
+				DDF40BB1515EB2761A02B3C57F887015 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		122DED3D86BD6F7C879E1FA2CD0A41EE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				04AF424408002868AAF19F655C921B60 /* RCQBaseViewController.h */,
+				C87CC2DB15C281EDA9AFE69BE0A90827 /* RCQBaseViewController.m */,
+				F352095CE33BA7E0130E833AE07E1B3C /* RCQGenerlDefine.h */,
+				CFA8F85BFD77E7A6020BC3D9F973DF32 /* RCQNavigationBar.h */,
+				8D54682886CA9F8B337A6113B5281838 /* RCQNavigationBar.m */,
+			);
+			name = Base;
+			path = RCQFileManager/Classes/Base;
+			sourceTree = "<group>";
+		};
+		1B2FCBCDD3A84F39B9AAA28AF65FE19F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAA9C38F5166C0DF843957176ABEFB79 /* Pods-RCQFileManager_Example */,
+				289AE911FA63B1ABEB6492F22D2A96E7 /* Pods-RCQFileManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		289AE911FA63B1ABEB6492F22D2A96E7 /* Pods-RCQFileManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8A3199F9C65EEAA8FD4E89C03F0C16F8 /* Pods-RCQFileManager_Tests.modulemap */,
+				BAC2AE2E8725BD3F87BB392FCE8A590D /* Pods-RCQFileManager_Tests-acknowledgements.markdown */,
+				0F5539FB37FA4A69BEBC6A60EAC87964 /* Pods-RCQFileManager_Tests-acknowledgements.plist */,
+				61C4E186C2C6D04C2F3B240245B4A962 /* Pods-RCQFileManager_Tests-dummy.m */,
+				6DD6D01C6BC62A26A9E6597C8A815926 /* Pods-RCQFileManager_Tests-Info.plist */,
+				98639893A859D3933969DADB97ABFE21 /* Pods-RCQFileManager_Tests-umbrella.h */,
+				2DACDF18C13AD0A2BEFEE9B8461C40FD /* Pods-RCQFileManager_Tests.debug.xcconfig */,
+				A2A19FF614186D3B7CDEFC5E81D314B6 /* Pods-RCQFileManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-RCQFileManager_Tests";
+			path = "Target Support Files/Pods-RCQFileManager_Tests";
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5B3866BF5E5EF7D584398E5EC2AFC43C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				71D629B82CBDD5BAE9E1EE38F06B4516 /* RCQLookFilesModel.h */,
+				ED77B2D2A0D4F290896C8BBB410BB172 /* RCQLookFilesModel.m */,
+			);
+			name = Model;
+			path = RCQFileManager/Classes/Model;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				A6C70A6175B9FE21D41C06FCFDB5294D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F0E3A9B5600FFAEA2AEB1E8D9D092A3E /* Products */,
+				1B2FCBCDD3A84F39B9AAA28AF65FE19F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8DA7FE73DAEF1D622319F3A25E9B91D8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				340A6019B67AEAA054193F8807355A51 /* back_close@2x.png */,
+				6AAC487095BD442A39B61A22A905E119 /* back_gray@2x.png */,
+				C347F538E681467BCADD2444158936F9 /* rc_3gp.png */,
+				506628CD0FB25918B2F308E932FED559 /* rc_aac.png */,
+				C8EA434C7CA1A7F1ED0D9024B7882F29 /* rc_acc.png */,
+				4BF100E809F63408A341D266B13CF382 /* rc_aif.png */,
+				E7DCF336223FBE5F1F7B767D73AFC12F /* rc_amr.png */,
+				FDD285AB1E2D167315339E5B1F1DCBD5 /* rc_ape.png */,
+				B4F9F7ECCCAAB2762A945223DF266FBE /* rc_asf.png */,
+				B112CE236433B0C01F820E1CD2D67AFA /* rc_avi.png */,
+				3A02D3C78CF8B099B04C46D68FCEA683 /* rc_bmp.png */,
+				97BBD8BD3FFE4343EE569C432086364E /* rc_caf.png */,
+				16772C7167D755DCE66DD9D3CB4915B5 /* rc_cur.png */,
+				188ECD9501E8F578528CE27C30E22E33 /* rc_dat.png */,
+				31DDB1F963357EA9345480CF1656AD78 /* rc_divx.png */,
+				2C7E65E6A7EE3AB466DEEBC1A8450CDD /* rc_doc.png */,
+				1BD8EA80D8BCF139C9527C9108DD4583 /* rc_docx.png */,
+				4081D56D9911D82A93F2B203C9B17471 /* rc_flac.png */,
+				ABFD2738B0788392FF26DFCA6339E0BB /* rc_flv.png */,
+				130E57A3B16852FF1BA33F912AE95AAB /* rc_folder.png */,
+				F800D0F761F262FFE009D165463F0E34 /* rc_fw.png */,
+				1DDF943F2C95AA97DC3D64C75D128DB6 /* rc_gif.png */,
+				782778D1BA9DD029C9526C4F2ADD96B9 /* rc_html.png */,
+				515439A62E206156880A5E040BE53314 /* rc_ico.png */,
+				9C1058DB29917D634645F006960F884A /* rc_jpeg.png */,
+				A12F55E563A56D8EEA39FA0EDF00774C /* rc_jpg.png */,
+				A8EBF6B3F01D18CA530062972555C704 /* rc_keynotes.png */,
+				811194768DE0B76A2B1E9F5C936C1102 /* rc_m2ts.png */,
+				3C07AACD85D58FCE603A98EE80DE9701 /* rc_m4a.png */,
+				9A58BC7414FA9C219EAE3390EB327436 /* rc_m4r.png */,
+				E6E639D88B06B0256459D567BA62BBAD /* rc_m4v.png */,
+				10AFDB8DA4315FA8C63242BB90F35FCE /* rc_mkv.png */,
+				31D5FC0283958F08E878E45D2C5F97B4 /* rc_mmf.png */,
+				877907BD710C307B8AC7E4485E05873D /* rc_mov.png */,
+				A7F25F779BAD5ED2A4B6BCBBF8CEF2D2 /* rc_mp2.png */,
+				81AB3ED5521CC7016C44BB400DAD4047 /* rc_mp3.png */,
+				C6C9FE949D903D31E1B5F40F6ECC9A4B /* rc_mp4.png */,
+				B932375E0BA24E6BBDDB4F5EC8B23E52 /* rc_mpeg.png */,
+				0057F8816A43BA9ED42BB17785A4AB02 /* rc_mpg.png */,
+				DE7BDF514516B34F1E65DD6BFAD5439E /* rc_mpv.png */,
+				FCF4D750F6D9C545D98272536EAE71EF /* rc_music.png */,
+				8A83AFF4C4BF009AC53DC49B51C96587 /* rc_numbers.png */,
+				A04B4EB999892E0637634BCF5F34A379 /* rc_ogg.png */,
+				D7A5627A1DB061604F3EC8DAAE6CF54C /* rc_pages.png */,
+				6D12793F10638943F4A11FFC9AC5B007 /* rc_pdf.png */,
+				701AB6C19E3C75D280DCCD1DF5CC9863 /* rc_png.png */,
+				1C9D50734310486A2FBB7BF366E0BE5B /* rc_ppt.png */,
+				D265A1B8379A995C8230938F99F8E3B9 /* rc_pptx.png */,
+				19FE91C4C0670EF589F3AA99793D9C6E /* rc_rm.png */,
+				44B957BF24D1900911A855B304CB49F8 /* rc_rmvb.png */,
+				7B306033C8FFE4355AC15D4A647BD566 /* rc_rmvp.png */,
+				22EF0A2EA33876A92A10445577D436B8 /* rc_rtf.png */,
+				847EA774BE5F3A6A7B149DC10DA7C849 /* rc_swf.png */,
+				8C95A4EB2FB8B29675852739CAD50E84 /* rc_tiff.png */,
+				FDFCFD023A50E06B80672E9A9675E7E3 /* rc_tp.png */,
+				DAC885E05B267FCDA0A0C24180E826EC /* rc_ts.png */,
+				5643EA1E1FFA4E3C42E4744DB889F2CE /* rc_txt.png */,
+				35749DA57D0BD674D0D832D4C16A2E8F /* rc_unknown.png */,
+				C225F67FF2837DBFFFECD3D9B3DFB665 /* rc_vcf.png */,
+				1455CD83D11438ADA52A8ACCFFCC925E /* rc_vcg.png */,
+				E8C2C4D600C5F5DA5CAE4B0BF8C2F7B1 /* rc_vob.png */,
+				6431DDF7AE569C0B0EFB64E5813A3D86 /* rc_wav.png */,
+				972CE1CCDAC77BD6058107A7C947BECA /* rc_wma.png */,
+				A3516026FE69DBAF2C8FAA1FB1A5B810 /* rc_wmv.png */,
+				610CD71279E09BBE46CB2A2CDB545530 /* rc_xls.png */,
+				2805977E88B8BA980B73E08AF002D60F /* rc_xlsx.png */,
+				191F5B9553C4707B9E2D4B94D8BC39FA /* rc_xmb.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		93E14AD9701CE1F31B56597F1FA8FEAE /* RCQFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				63FCF1B957253A87D4B5F81DE433AF40 /* RCQFileExlporeViewController.h */,
+				61F23E9A52A74CFD5993A8592560DCFB /* RCQFileExlporeViewController.m */,
+				122DED3D86BD6F7C879E1FA2CD0A41EE /* Base */,
+				960687B1B4983A1A27C0D3A52E1AF3A3 /* Explorer */,
+				5B3866BF5E5EF7D584398E5EC2AFC43C /* Model */,
+				117DD1E7537E9ECBC252933F1C310209 /* Pod */,
+				8DA7FE73DAEF1D622319F3A25E9B91D8 /* Resources */,
+				AAE225F94180FA1F42050EAF41B00379 /* Support Files */,
+				C2666C01A41D9BE5B0F070D56DDF5DEF /* View */,
+			);
+			name = RCQFileManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		960687B1B4983A1A27C0D3A52E1AF3A3 /* Explorer */ = {
+			isa = PBXGroup;
+			children = (
+				CE931B5EDD762D8192790308E060F10A /* RCQLookTxtViewController.h */,
+				1E0E3D1793A56EEFDC00655016B6F8D0 /* RCQLookTxtViewController.m */,
+			);
+			name = Explorer;
+			path = RCQFileManager/Classes/Explorer;
+			sourceTree = "<group>";
+		};
+		A6C70A6175B9FE21D41C06FCFDB5294D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93E14AD9701CE1F31B56597F1FA8FEAE /* RCQFileManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AAA9C38F5166C0DF843957176ABEFB79 /* Pods-RCQFileManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				49DDF161B3211CFB63C36CC445C6866E /* Pods-RCQFileManager_Example.modulemap */,
+				90783FE75A9EB2EAE67F27F0DC45EC5A /* Pods-RCQFileManager_Example-acknowledgements.markdown */,
+				F75EB31F55246736811EC8E510EAF620 /* Pods-RCQFileManager_Example-acknowledgements.plist */,
+				BD58F267C9AB97ABC6250A6DB2EBF573 /* Pods-RCQFileManager_Example-dummy.m */,
+				EDD95ADE279EE5DBD20D2156097B2B14 /* Pods-RCQFileManager_Example-frameworks.sh */,
+				239757CE0878DBC78E5DBA4AB71FEFB0 /* Pods-RCQFileManager_Example-Info.plist */,
+				F84D98B686853301A523502542BBD1D1 /* Pods-RCQFileManager_Example-umbrella.h */,
+				4B8E4378B1FDAF2D80299ACBD7470374 /* Pods-RCQFileManager_Example.debug.xcconfig */,
+				50E1A10EE3398D75293604E24EA465DF /* Pods-RCQFileManager_Example.release.xcconfig */,
+			);
+			name = "Pods-RCQFileManager_Example";
+			path = "Target Support Files/Pods-RCQFileManager_Example";
+			sourceTree = "<group>";
+		};
+		AAE225F94180FA1F42050EAF41B00379 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0DD89E4E37279A555525E8602B06958 /* RCQFileManager.modulemap */,
+				D01B49334FE65ED05CD94CC0E5C44625 /* RCQFileManager.xcconfig */,
+				514A47701E3A87CF3457B301EC9DC5DF /* RCQFileManager-dummy.m */,
+				B1DDCDD276B8B94AA3E375E5E82D36A2 /* RCQFileManager-Info.plist */,
+				C0F3A25FA5A6E47C57431F8904A1CD7C /* RCQFileManager-prefix.pch */,
+				DA8741E09D517B483ECDD0497B4B55A3 /* RCQFileManager-umbrella.h */,
+				C2DAA3E8A048663EBF8216B2243979F6 /* ResourceBundle-RCQFileManager-RCQFileManager-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RCQFileManager";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2666C01A41D9BE5B0F070D56DDF5DEF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1ECE59C7C8B3A2557DBB41A597F7321 /* RCQLookFilesTableViewCell.h */,
+				4B5BFDD09D404DE36957E3F7AE50DA14 /* RCQLookFilesTableViewCell.m */,
+			);
+			name = View;
+			path = RCQFileManager/Classes/View;
+			sourceTree = "<group>";
+		};
+		F0E3A9B5600FFAEA2AEB1E8D9D092A3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75D657DEC783EEDA349D354E922F663E /* Pods_RCQFileManager_Example.framework */,
+				5DAEB56C3695907E9B4313D321B6A547 /* Pods_RCQFileManager_Tests.framework */,
+				9E30BCC4DF9DA2F73C3E712A1757D6E2 /* RCQFileManager.bundle */,
+				C35510F2562E3BE555B2164FF2C02CA4 /* RCQFileManager.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2E297C89ED5875B8466D55F38822A245 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BB4EE2CADC2FD7EE6EF63B5BA58DEE /* RCQBaseViewController.h in Headers */,
+				7CAB8ACAEFA4118BDCC02E1361D96BB8 /* RCQFileExlporeViewController.h in Headers */,
+				91FD67B9B8D2214241E43F5D38E56B54 /* RCQFileManager-umbrella.h in Headers */,
+				781080140A89DA7FE0C4E44988C9C72B /* RCQGenerlDefine.h in Headers */,
+				669656439B0682DAFB25824C396A236F /* RCQLookFilesModel.h in Headers */,
+				6CEAF70F91041E679135F72C71372BE2 /* RCQLookFilesTableViewCell.h in Headers */,
+				8B16BD1A8633631336D2BEC80203ADAD /* RCQLookTxtViewController.h in Headers */,
+				22F922E372398F6CFE2D7D6EFCBB3A3B /* RCQNavigationBar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF272F9C6E4B1CF00D5F595F67186349 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A659CF7FE9268D47E65E99633932F6EF /* Pods-RCQFileManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E13BCB4BD759AFFCE1D772B0AD90E104 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C7DBAAB7ADA0611A2A3C3E6F95A1854 /* Pods-RCQFileManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B494ED52F07FB7B1840BBCCA14EF4A5 /* RCQFileManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 312B1FD35F80CFBA7113D6F469CBD546 /* Build configuration list for PBXNativeTarget "RCQFileManager" */;
+			buildPhases = (
+				2E297C89ED5875B8466D55F38822A245 /* Headers */,
+				128263340ACFB9F4CF9C41F53A38DFE8 /* Sources */,
+				8B8AAEF65E826DDF2A32DEB04828E016 /* Frameworks */,
+				659F54FCC971BAE86F0BA1E69374E266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72CFC278036615F87F9256EAB086DFEA /* PBXTargetDependency */,
+			);
+			name = RCQFileManager;
+			productName = RCQFileManager;
+			productReference = C35510F2562E3BE555B2164FF2C02CA4 /* RCQFileManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		301379E59B38CA2B73CB08E690AAC442 /* Pods-RCQFileManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94E05CF0EE4734ABCD4AA9C79DB911D /* Build configuration list for PBXNativeTarget "Pods-RCQFileManager_Example" */;
+			buildPhases = (
+				BF272F9C6E4B1CF00D5F595F67186349 /* Headers */,
+				0CD47D7F8F825EC446A42DD00D3EE947 /* Sources */,
+				64D1CB8D48E596F020AFD655CD7CF4E3 /* Frameworks */,
+				1F3838EFF7B3AEC6634DBD125F75012F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				270A8E84B9D2CA187F9103526091E8F0 /* PBXTargetDependency */,
+			);
+			name = "Pods-RCQFileManager_Example";
+			productName = "Pods-RCQFileManager_Example";
+			productReference = 75D657DEC783EEDA349D354E922F663E /* Pods_RCQFileManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		443716FA2CB9F3C35016B066C0A7E5FC /* RCQFileManager-RCQFileManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A232C9FDD262A84D7905075103E80D /* Build configuration list for PBXNativeTarget "RCQFileManager-RCQFileManager" */;
+			buildPhases = (
+				135CACA2623A59F61E8EEED79FB4CEA0 /* Sources */,
+				519DD1551EFFD587C722F2FE9D4F49D8 /* Frameworks */,
+				28F516414894C6DAB07481E5C3C693CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RCQFileManager-RCQFileManager";
+			productName = "RCQFileManager-RCQFileManager";
+			productReference = 9E30BCC4DF9DA2F73C3E712A1757D6E2 /* RCQFileManager.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		71202EF7B161DBB8BE386A25B685DB12 /* Pods-RCQFileManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E202013455A1EF5EAD8F4D4665460EEB /* Build configuration list for PBXNativeTarget "Pods-RCQFileManager_Tests" */;
+			buildPhases = (
+				E13BCB4BD759AFFCE1D772B0AD90E104 /* Headers */,
+				477D0F769BC0A9BFFC6546C94E153069 /* Sources */,
+				8D22CA918A3504849CE18D3DFC938604 /* Frameworks */,
+				120370AB4084A7AEF2648790F5B0E7FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E938F74CDBB4C8B1C5DCA169113F194 /* PBXTargetDependency */,
+			);
+			name = "Pods-RCQFileManager_Tests";
+			productName = "Pods-RCQFileManager_Tests";
+			productReference = 5DAEB56C3695907E9B4313D321B6A547 /* Pods_RCQFileManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F0E3A9B5600FFAEA2AEB1E8D9D092A3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				301379E59B38CA2B73CB08E690AAC442 /* Pods-RCQFileManager_Example */,
+				71202EF7B161DBB8BE386A25B685DB12 /* Pods-RCQFileManager_Tests */,
+				0B494ED52F07FB7B1840BBCCA14EF4A5 /* RCQFileManager */,
+				443716FA2CB9F3C35016B066C0A7E5FC /* RCQFileManager-RCQFileManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		120370AB4084A7AEF2648790F5B0E7FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F3838EFF7B3AEC6634DBD125F75012F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F516414894C6DAB07481E5C3C693CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42A4ECE5F804D8F9640B9A6BC5B738C /* back_close@2x.png in Resources */,
+				EBF0D655FEAC7A3BDE40D56A08F23327 /* back_gray@2x.png in Resources */,
+				828AF2C581D1C343A60701A006DA3C99 /* rc_3gp.png in Resources */,
+				A00C56C752605A31676748BFFFF9E3C7 /* rc_aac.png in Resources */,
+				A07C4F4FD21F0900B28C7921DB378B45 /* rc_acc.png in Resources */,
+				20076C77A16C5A023FFABBC33F5C4737 /* rc_aif.png in Resources */,
+				06DB6C8734DB35061461C0BF8F38C91E /* rc_amr.png in Resources */,
+				9533C4BBA34A22C7C399236CA3321CA4 /* rc_ape.png in Resources */,
+				F8790539BF85FBCE58F619DEC195B5FA /* rc_asf.png in Resources */,
+				FB657FDA7C91B1E7662A773897C5A216 /* rc_avi.png in Resources */,
+				97141E94AB59DCD0014961457034C464 /* rc_bmp.png in Resources */,
+				D9AC39AC4F104B18E7A8939117335126 /* rc_caf.png in Resources */,
+				4BB103D30B4F369561D1734591A55016 /* rc_cur.png in Resources */,
+				00196B9572A923674F51C75D6243E8AF /* rc_dat.png in Resources */,
+				13F0D9DD85A1D5E84FDCBB4025F5E66A /* rc_divx.png in Resources */,
+				B7272B3767AB602484CED924174102E5 /* rc_doc.png in Resources */,
+				B69B504AA6A48093E6ECD297BE1A7B83 /* rc_docx.png in Resources */,
+				362363FA6F43BA35E0FAF94FAA4A2900 /* rc_flac.png in Resources */,
+				3379BC2910D59B973AA2EEF1B5D3DAAD /* rc_flv.png in Resources */,
+				8B827029346A05FD4389EE5373859D4F /* rc_folder.png in Resources */,
+				AF5922C60609415D2BC2147220B34258 /* rc_fw.png in Resources */,
+				FDB1462A3E8A9A8C4538C313E5A34A8F /* rc_gif.png in Resources */,
+				8AE80D49921107DE06A43DBD1CE8A9E3 /* rc_html.png in Resources */,
+				A3049677A0D3D3E6756B1D4DA7844A15 /* rc_ico.png in Resources */,
+				963FEE9D39B15CB034D2843C82990336 /* rc_jpeg.png in Resources */,
+				66696984A6DACF6547EBC512448E1A88 /* rc_jpg.png in Resources */,
+				D4A0DC79DA794EE966F3A8C40798DA8B /* rc_keynotes.png in Resources */,
+				8E166E6D900B8357DBB75E66DA295700 /* rc_m2ts.png in Resources */,
+				6B505184A95014B4039C9350FB4C5B06 /* rc_m4a.png in Resources */,
+				3C1F798F919C8FB6780F36796E734D1A /* rc_m4r.png in Resources */,
+				06B46B23BDEAB58F6A3B3FAD03F49A08 /* rc_m4v.png in Resources */,
+				78EB8C06D0D46F7D2F0836D50769C635 /* rc_mkv.png in Resources */,
+				BD19CDD3D5C31698FDB898C4A8AEB29B /* rc_mmf.png in Resources */,
+				61F7F705EE8F8F5273EAFE95C048B5DC /* rc_mov.png in Resources */,
+				DADB98BB689DB88034AF787B27C99E96 /* rc_mp2.png in Resources */,
+				91F3ACE453F350AA9BC2CA264F674C86 /* rc_mp3.png in Resources */,
+				0C3C782BF9EEE7095AE72275D82BFE6F /* rc_mp4.png in Resources */,
+				A156331F5F7A8D6F126ED2847FE09E82 /* rc_mpeg.png in Resources */,
+				B83C09394B58C3B54EC81F13B51A65A7 /* rc_mpg.png in Resources */,
+				40FF398052EC6D8378A51CE68DE9A5C6 /* rc_mpv.png in Resources */,
+				8A23B7F4639B6B08A207E945FB56B47D /* rc_music.png in Resources */,
+				53CEB5E6D4797AB3AE346DCBE14292BF /* rc_numbers.png in Resources */,
+				B08FC629490C6824275939E6F1B85CCE /* rc_ogg.png in Resources */,
+				E59793F251072B65E0995C41EFCBE9C2 /* rc_pages.png in Resources */,
+				1B8B78BA7A0DF93C29CDECE663C5D880 /* rc_pdf.png in Resources */,
+				11DD991CD5D64335DEB9C64744D36865 /* rc_png.png in Resources */,
+				B364B7D3AD83C3ADA81AE564360B235E /* rc_ppt.png in Resources */,
+				0842784582D786203F2DC55D6E2BF36A /* rc_pptx.png in Resources */,
+				604ACA2BD59BA936EABE0CDB8E07E651 /* rc_rm.png in Resources */,
+				3E81EC041119CF6D22FC39D947499A17 /* rc_rmvb.png in Resources */,
+				C984B10932C230621135DD9C2E4B235E /* rc_rmvp.png in Resources */,
+				9B3762ECA8148D885422100EE9C197B9 /* rc_rtf.png in Resources */,
+				776ACFDE0EE9CE91D9173B159055C7B2 /* rc_swf.png in Resources */,
+				C4EE316111942E505729B17B645DCE28 /* rc_tiff.png in Resources */,
+				FD463BDD5F016F78D2DF9A391FEE498B /* rc_tp.png in Resources */,
+				24A7A39F6AA22F26029D89B73B8CF3B3 /* rc_ts.png in Resources */,
+				F6C420A8CBE9246D91EC760E188B9C4F /* rc_txt.png in Resources */,
+				8ADCA02E4EE70293A90BB33A0DA92BC8 /* rc_unknown.png in Resources */,
+				FE08A43C2BDAE516690B56DDB4FEC6C3 /* rc_vcf.png in Resources */,
+				5E677E9084CB6853FA296AA138A75E9A /* rc_vcg.png in Resources */,
+				15828405F16EA590C8AB65A55A447B2E /* rc_vob.png in Resources */,
+				C1E0E8E80A7736655776EC74C502B9D6 /* rc_wav.png in Resources */,
+				93E851F2F36DB242264F9EF89550EEC1 /* rc_wma.png in Resources */,
+				0B4AECF6BCC7A3CF321510BBBA987D74 /* rc_wmv.png in Resources */,
+				61E600ECDC11F6E5D911761D9A61F073 /* rc_xls.png in Resources */,
+				FE9C8EDF224B1C5A7ABBF90E3731BA84 /* rc_xlsx.png in Resources */,
+				E2B48CC32416AA9E50963C9D4202DCC6 /* rc_xmb.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659F54FCC971BAE86F0BA1E69374E266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA82C284C40D6C47DE3DF882969C7C2 /* RCQFileManager.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CD47D7F8F825EC446A42DD00D3EE947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				553F80BFC402FC2C0E7B563F67CEFE49 /* Pods-RCQFileManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128263340ACFB9F4CF9C41F53A38DFE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D390E8356698794F3085182321DC9F /* RCQBaseViewController.m in Sources */,
+				BDED9781971E8901EFE6B14A891C7E6B /* RCQFileExlporeViewController.m in Sources */,
+				B31ABFEFF1E3A8518FB28972C4351D47 /* RCQFileManager-dummy.m in Sources */,
+				E4A642E636F8F609D86D274CAE29CABE /* RCQLookFilesModel.m in Sources */,
+				5212507A348A2EFBB95BA6396AD19E58 /* RCQLookFilesTableViewCell.m in Sources */,
+				89B6868668F9EC102AB3E04363BF423B /* RCQLookTxtViewController.m in Sources */,
+				C7F4760CFEC68F60DB8224E6A4C4A055 /* RCQNavigationBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		135CACA2623A59F61E8EEED79FB4CEA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		477D0F769BC0A9BFFC6546C94E153069 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90AC44C946A7CE97277BFF27A21FC58 /* Pods-RCQFileManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		270A8E84B9D2CA187F9103526091E8F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RCQFileManager;
+			target = 0B494ED52F07FB7B1840BBCCA14EF4A5 /* RCQFileManager */;
+			targetProxy = 398381B9A8433CC80C96D663746783FB /* PBXContainerItemProxy */;
+		};
+		3E938F74CDBB4C8B1C5DCA169113F194 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RCQFileManager_Example";
+			target = 301379E59B38CA2B73CB08E690AAC442 /* Pods-RCQFileManager_Example */;
+			targetProxy = 8DCC0BD8A3C531E1C2DCEEF0695DABEE /* PBXContainerItemProxy */;
+		};
+		72CFC278036615F87F9256EAB086DFEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RCQFileManager-RCQFileManager";
+			target = 443716FA2CB9F3C35016B066C0A7E5FC /* RCQFileManager-RCQFileManager */;
+			targetProxy = 8B73CB8FFFF17E3D6060A15FE7CD0925 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0938968140A01382FDA25ABA570A5C93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DACDF18C13AD0A2BEFEE9B8461C40FD /* Pods-RCQFileManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RCQFileManager_Tests/Pods-RCQFileManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RCQFileManager_Tests/Pods-RCQFileManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3A8D9AFBD37B76AD76478F9B6EF76DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2A19FF614186D3B7CDEFC5E81D314B6 /* Pods-RCQFileManager_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RCQFileManager_Tests/Pods-RCQFileManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RCQFileManager_Tests/Pods-RCQFileManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		500CC41C12CCEFD5129A83DDAE25451E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D01B49334FE65ED05CD94CC0E5C44625 /* RCQFileManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RCQFileManager";
+				INFOPLIST_FILE = "Target Support Files/RCQFileManager/ResourceBundle-RCQFileManager-RCQFileManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = RCQFileManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		6E2374C5CB0B0A84E574068CE955F2E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D01B49334FE65ED05CD94CC0E5C44625 /* RCQFileManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RCQFileManager/RCQFileManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RCQFileManager/RCQFileManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RCQFileManager/RCQFileManager.modulemap";
+				PRODUCT_MODULE_NAME = RCQFileManager;
+				PRODUCT_NAME = RCQFileManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7BB9AED7B6B48027C3E6580810776F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50E1A10EE3398D75293604E24EA465DF /* Pods-RCQFileManager_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RCQFileManager_Example/Pods-RCQFileManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RCQFileManager_Example/Pods-RCQFileManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84B1D37C8D28CDF7739E6793FAB62024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D01B49334FE65ED05CD94CC0E5C44625 /* RCQFileManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RCQFileManager";
+				INFOPLIST_FILE = "Target Support Files/RCQFileManager/ResourceBundle-RCQFileManager-RCQFileManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = RCQFileManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A2666C6BA48E1855A9575A99A86EAB00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D01B49334FE65ED05CD94CC0E5C44625 /* RCQFileManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RCQFileManager/RCQFileManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RCQFileManager/RCQFileManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RCQFileManager/RCQFileManager.modulemap";
+				PRODUCT_MODULE_NAME = RCQFileManager;
+				PRODUCT_NAME = RCQFileManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE01AF5D395AE305A54D518A9B774D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E273CD1B46D4A038DEC9147C310F05EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B8E4378B1FDAF2D80299ACBD7470374 /* Pods-RCQFileManager_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RCQFileManager_Example/Pods-RCQFileManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RCQFileManager_Example/Pods-RCQFileManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */,
+				BE01AF5D395AE305A54D518A9B774D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		312B1FD35F80CFBA7113D6F469CBD546 /* Build configuration list for PBXNativeTarget "RCQFileManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2666C6BA48E1855A9575A99A86EAB00 /* Debug */,
+				6E2374C5CB0B0A84E574068CE955F2E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A232C9FDD262A84D7905075103E80D /* Build configuration list for PBXNativeTarget "RCQFileManager-RCQFileManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B1D37C8D28CDF7739E6793FAB62024 /* Debug */,
+				500CC41C12CCEFD5129A83DDAE25451E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94E05CF0EE4734ABCD4AA9C79DB911D /* Build configuration list for PBXNativeTarget "Pods-RCQFileManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E273CD1B46D4A038DEC9147C310F05EF /* Debug */,
+				7BB9AED7B6B48027C3E6580810776F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E202013455A1EF5EAD8F4D4665460EEB /* Build configuration list for PBXNativeTarget "Pods-RCQFileManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0938968140A01382FDA25ABA570A5C93 /* Debug */,
+				3A8D9AFBD37B76AD76478F9B6EF76DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

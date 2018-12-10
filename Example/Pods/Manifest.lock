@@ -1,0 +1,16 @@
+PODS:
+  - RCQFileManager (1.0.0)
+
+DEPENDENCIES:
+  - RCQFileManager (from `../`)
+
+EXTERNAL SOURCES:
+  RCQFileManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RCQFileManager: b14675ace80e8e3ae74f845ab328842a43ff457b
+
+PODFILE CHECKSUM: 075cd412055d68856e02c48769c9da46de875671
+
+COCOAPODS: 1.6.0.beta.2

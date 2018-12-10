@@ -7,6 +7,7 @@
 //
 
 #import "RCQViewController.h"
+#import "RCQFileExlporeViewController.h"
 
 @interface RCQViewController ()
 
@@ -18,6 +19,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (IBAction)openExplore:(UIButton *)sender {
+    RCQFileExlporeViewController *vc = [[RCQFileExlporeViewController alloc] init];
+    [self presentViewController:[[UINavigationController alloc] initWithRootViewController:vc] animated:YES completion:^{
+        
+    }];
 }
 
 - (void)didReceiveMemoryWarning
