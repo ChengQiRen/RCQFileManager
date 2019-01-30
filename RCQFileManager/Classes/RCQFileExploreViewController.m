@@ -69,12 +69,24 @@
         fileObj.fileName = name;
         NSDictionary *fileAttributes = [[NSFileManager defaultManager] attributesOfItemAtPath:[dir stringByAppendingPathComponent:name] error:nil];
         fileObj.filemTime = [fileAttributes objectForKey:@"NSFileCreationDate"];
-        fileObj.fileSize = [[fileAttributes objectForKey:@"NSFileSize"] integerValue];
         fileObj.fileOwner = [fileAttributes objectForKey:@"NSFileGroupOwnerAccountName"];
         fileObj.filePath = [dir stringByAppendingPathComponent:name];
         fileObj.isDir = [[fileAttributes objectForKey:@"NSFileType"] isEqualToString:NSFileTypeDirectory];
         if (fileObj.isDir) {
             fileObj.nodes = [self loadFilesWithDir:fileObj.filePath];
+            long long fileSize = 0;
+            if ([[NSFileManager defaultManager] fileExistsAtPath:fileObj.filePath]) {
+                NSEnumerator *childFilesEnumerator = [[[NSFileManager defaultManager] subpathsAtPath:fileObj.filePath] objectEnumerator];
+                NSString* fileName;
+                while ((fileName = [childFilesEnumerator nextObject]) != nil) {
+                    NSString *fileAbsolutePath = [fileObj.filePath stringByAppendingPathComponent:fileName];
+                    fileSize += [self fileSizeAtPath:fileAbsolutePath];
+                }
+            }
+            fileObj.fileSize = fileSize;
+        }
+        else {
+            fileObj.fileSize = [[fileAttributes objectForKey:@"NSFileSize"] integerValue];
         }
         // 去除隐藏文件
         if (![fileObj.fileName hasPrefix:@"."]) {
@@ -84,6 +96,14 @@
 //        NSLog(@"%@", fileAttributes);
     }
     return fileList;
+}
+
+- (long long)fileSizeAtPath:(NSString*)filePath {
+    NSFileManager* manager = [NSFileManager defaultManager];
+    if ([manager fileExistsAtPath:filePath]){
+        return [[manager attributesOfItemAtPath:filePath error:nil] fileSize];
+    }
+    return 0;
 }
 
 #pragma mark - UIDocumentInteractionControllerDelegate
@@ -111,17 +131,18 @@
     cell.timeLabel.text = [dateFormatter stringFromDate:fileObj.filemTime];
     
     //文件大小
-    NSString *sizeStr;
-    if (fileObj.fileSize > 1048576 * 1024) {
-        sizeStr = [NSString stringWithFormat:@"%.2fGB", (double)(fileObj.fileSize/1048576/1024)];
-    }
-    else if (fileObj.fileSize > 1048576) {
-        sizeStr = [NSString stringWithFormat:@"%.2fMB", (double)(fileObj.fileSize/1048576)];
-    }
-    else {
-        sizeStr = [NSString stringWithFormat:@"%.2fKB", (double)(fileObj.fileSize/1024)];
-    }
+//    NSString *sizeStr;
+//    if (fileObj.fileSize > 1048576 * 1024) {
+//        sizeStr = [NSString stringWithFormat:@"%.2fGB", (double)(fileObj.fileSize/1048576/1024)];
+//    }
+//    else if (fileObj.fileSize > 1048576) {
+//        sizeStr = [NSString stringWithFormat:@"%.2fMB", (double)(fileObj.fileSize/1048576)];
+//    }
+//    else {
+//        sizeStr = [NSString stringWithFormat:@"%.2fKB", (double)(fileObj.fileSize/1024)];
+//    }
     
+    NSString *sizeStr = [NSByteCountFormatter stringFromByteCount:fileObj.fileSize countStyle:NSByteCountFormatterCountStyleBinary];
     cell.sizeLabel.text = sizeStr;
     
     NSArray *strDivision = [cell.titleLabel.text componentsSeparatedByString:@"."];
@@ -134,14 +155,12 @@
     }
     else if (fileObj.isDir) {
         cell.fileImageView.image = [self imagesNamedFromCustomBundle:@"folder"];
-        cell.sizeLabel.hidden = YES;
         if (fileObj.nodes.count == 0) {
             cell.userInteractionEnabled = NO;
             cell.contentView.alpha = 0.4;
         }
     }
     else {
-        cell.sizeLabel.hidden = NO;
         NSString *imagePath = strIntercept;
         UIImage *img = [self imagesNamedFromCustomBundle:imagePath];
         if (!img) {
