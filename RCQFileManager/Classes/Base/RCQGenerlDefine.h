@@ -27,7 +27,7 @@
 
 #define kHeight [UIScreen mainScreen].bounds.size.height
 
-#define is_iPhoneX (kWidth == 375.f && kHeight == 812.f ? YES : NO)
+#define is_iPhoneX (CGSizeEqualToSize([UIScreen mainScreen].bounds.size, CGSizeMake(375, 812)) ||CGSizeEqualToSize([UIScreen mainScreen].bounds.size, CGSizeMake(812, 375)) || CGSizeEqualToSize([UIScreen mainScreen].bounds.size, CGSizeMake(414, 896)) ||CGSizeEqualToSize([UIScreen mainScreen].bounds.size, CGSizeMake(896, 414)))
 
 // 图片路径
 #define kRCSandboxFilesSrcName(file)               [@"RCQFileManager.bundle" stringByAppendingPathComponent:file]
