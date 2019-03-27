@@ -248,7 +248,7 @@
 				ORGANIZATIONNAME = "rencheng11@icloud.com";
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = 59VK5P37RR;
+						DevelopmentTeam = RJ3HT64AS6;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -260,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -526,12 +527,12 @@
 			baseConfigurationReference = 642B590DA5FFA217C12CBA89 /* Pods-RCQFileManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 59VK5P37RR;
+				DEVELOPMENT_TEAM = RJ3HT64AS6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RCQFileManager/RCQFileManager-Prefix.pch";
 				INFOPLIST_FILE = "RCQFileManager/RCQFileManager-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.RCQFileManager-Example.ren";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -542,12 +543,12 @@
 			baseConfigurationReference = 2BFED78A96F90D3B947E0A16 /* Pods-RCQFileManager_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 59VK5P37RR;
+				DEVELOPMENT_TEAM = RJ3HT64AS6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RCQFileManager/RCQFileManager-Prefix.pch";
 				INFOPLIST_FILE = "RCQFileManager/RCQFileManager-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.RCQFileManager-Example.ren";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
